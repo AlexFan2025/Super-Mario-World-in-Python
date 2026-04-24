@@ -22,10 +22,10 @@ def load_image(path):
 # Посмотреть верхний блок на наличие проблем работы с выделением файла
 
 try:
-    original_image = load_image("assets/SMWSmallMarioSprite.png")
-    platform_img = load_image('Semisolid_platform_SMW.png')
-    mario_jump = load_image('SMWSmallMarioJumpSprite.png')
-    warp_pipe = load_image('Warp_Pipe_SMW.png')
+    original_image = load_image("./assets/SMWSmallMarioSprite.png")
+    platform_img = load_image('./assets/Semisolid_platform_SMW.png')
+    mario_jump = load_image('./assets/SMWSmallMarioJumpSprite.png')
+    warp_pipe = load_image('./assets/Warp_Pipe_SMW.png')
 except Exception as e:
     print("Ошибка загрузки:", e)
     sys.exit()
